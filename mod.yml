@@ -64,14 +64,14 @@ assets:
 - name: remastered/obj/H_EX650.mdlx/-0.dds
   multi:
   - name: remastered/obj/N_EX820.mdlx/-0.dds
-  - name: remastered/obj/N_EX830.mdlx/-0.dds
+  - name: remastered/obj/N_EX830.mdlx/-1.dds
   method: copy
   source:
   - name: T/exarch1.png
 - name: remastered/obj/H_EX650.mdlx/-1.dds
   multi:
   - name: remastered/obj/N_EX820.mdlx/-1.dds
-  - name: remastered/obj/N_EX830.mdlx/-1.dds
+  - name: remastered/obj/N_EX830.mdlx/-0.dds
   method: copy
   source:
   - name: T/exarch2.png
