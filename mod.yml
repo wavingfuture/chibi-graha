@@ -1,0 +1,108 @@
+title: Chibi G'raha
+originalAuthor: wavingfuture
+description: Replace roxas with a G'raha Tia, including boss Roxas.
+dependencies:
+assets:
+#Regular Roxas
+- name: obj/P_EX110.mdlx
+  multi:
+  - name: obj/P_EX110_BTLF.mdlx
+  method: copy
+  source:
+  - name: M/grahxas.mdlx
+- name: obj/H_EX510.mdlx
+  method: copy
+  source:
+  - name: M/CS_grahxas.mdlx
+- name: obj/H_EX510_PAJAMAS.mdlx
+  method: copy
+  source:
+  - name: M/PJ_grahxas.mdlx
+- name: remastered/obj/P_EX110.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/P_EX110_BTLF.mdlx/-0.dds
+  - name: remastered/obj/H_EX510.mdlx/-0.dds
+  - name: remastered/obj/H_EX510_PAJAMAS.mdlx/-0.dds
+  method: copy
+  source:
+  - name: T/grahxas1.png
+- name: remastered/obj/P_EX110.mdlx/-1.dds
+  multi:
+  - name: remastered/obj/P_EX110_BTLF.mdlx/-1.dds
+  - name: remastered/obj/H_EX510.mdlx/-1.dds
+  - name: remastered/obj/H_EX510_PAJAMAS.mdlx/-1.dds
+  method: copy
+  source:
+  - name: T/grahxas2.png
+- name: remastered/obj/P_EX110.a.us/-0.dds
+  method: copy
+  source:
+  - name: T/hud.png
+- name: remastered/obj/P_EX110_BTLF.a.us/-0.dds
+  method: copy
+  source:
+  - name: T/hud.png
+#Coat Roxas
+- name: obj/H_EX650.mdlx
+  method: copy
+  source:
+  - name: M/exarch.mdlx
+- name: obj/N_EX820.mdlx
+  method: copy
+  source:
+  - name: M/exarch2.mdlx
+- name: obj/N_EX830.mdlx
+  method: copy
+  source:
+  - name: M/exarch3.mdlx
+- name: remastered/obj/H_EX650.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/N_EX820.mdlx/-0.dds
+  - name: remastered/obj/N_EX830.mdlx/-0.dds
+  method: copy
+  source:
+  - name: T/exarch1.png
+- name: remastered/obj/H_EX650.mdlx/-1.dds
+  multi:
+  - name: remastered/obj/N_EX820.mdlx/-1.dds
+  - name: remastered/obj/N_EX830.mdlx/-1.dds
+  method: copy
+  source:
+  - name: T/exarch2.png
+#Boss Roxas
+- name: obj/N_EX820_BTL.mdlx
+  method: copy
+  source:
+  - name: M/CS_exarch_boss.mdlx
+- name: obj/B_EX390.mdlx
+  method: copy
+  source:
+  - name: M/exarch_boss.mdlx
+- name: remastered/obj/N_EX820_BTL.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/B_EX390.mdlx/-1.dds
+  method: copy
+  source:
+  - name: T/exarch1.png
+- name: remastered/obj/N_EX820_BTL.mdlx/-1.dds
+  multi:
+  - name: remastered/obj/B_EX390.mdlx/-0.dds
+  method: copy
+  source:
+  - name: T/exarch2.png
+- name: remastered/obj/N_EX820_BTL.mdlx/-2.dds
+  multi:
+  - name: remastered/obj/N_EX820_BTL.mdlx/-5.dds
+  - name: remastered/obj/B_EX390.mdlx/-3.dds
+  - name: remastered/obj/B_EX390.mdlx/-5.dds
+  method: copy
+  source:
+  - name: T/exarch3.png
+- name: remastered/obj/N_EX820_BTL.mdlx/-3.dds
+  multi:
+  - name: remastered/obj/N_EX820_BTL.mdlx/-4.dds
+  - name: remastered/obj/B_EX390.mdlx/-2.dds
+  - name: remastered/obj/B_EX390.mdlx/-4.dds
+  method: copy
+  source:
+  - name: T/exarch4.png
