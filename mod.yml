@@ -26,7 +26,7 @@ assets:
   multi:
   - name: remastered/obj/P_EX110_BTLF.mdlx/-0.dds
   - name: remastered/obj/H_EX510.mdlx/-0.dds
-  - name: remastered/obj/P_EX110_NPC_PAJAMAS.mdlx/-0.dds
+  - name: remastered/obj/P_EX110_NPC_PAJAMAS.mdlx/-1.dds
   - name: remastered/obj/H_EX510_PAJAMAS.mdlx/-0.dds
   method: copy
   source:
@@ -35,7 +35,7 @@ assets:
   multi:
   - name: remastered/obj/P_EX110_BTLF.mdlx/-1.dds
   - name: remastered/obj/H_EX510.mdlx/-1.dds
-  - name: remastered/obj/P_EX110_NPC_PAJAMAS.mdlx/-1.dds
+  - name: remastered/obj/P_EX110_NPC_PAJAMAS.mdlx/-0.dds
   - name: remastered/obj/H_EX510_PAJAMAS.mdlx/-1.dds
   method: copy
   source:
